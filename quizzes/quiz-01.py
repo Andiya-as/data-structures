@@ -10,7 +10,7 @@ class stack:
         self.top += 1
     def show_last_five_logs(self):
         if self.is_empty():
-            print("stack is emty")
+            print("stack is empty")
             return
         start = self.top - 4
 
